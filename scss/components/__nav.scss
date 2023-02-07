@@ -1,0 +1,24 @@
+.nav {
+  background-color: rgba(189, 224, 254, 0.579);
+  width: 100%;
+  height: 50px;
+  margin-inline: 0;
+
+  &__list {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+  }
+  &__item {
+    color: #cdb4db;
+    transition: color 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: text-shadow 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  &__item:hover {
+    color: #ffafcc;
+    text-shadow: 8px 1px 18px #99407e;
+  }
+  &__item--logo {
+    flex-shrink: 2;
+  }
+}
