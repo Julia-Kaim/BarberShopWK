@@ -7,12 +7,10 @@
 
   &__list {
     display: flex;
-    justify-content: space-around;
-
+    justify-content: space-between;
   }
   &__item {
     color: white;
-
   }
   // &__item:hover {
   //   color: #ffafcc;
@@ -20,5 +18,12 @@
   // }
   &__item--logo {
     flex-shrink: 2;
+  }
+
+  &__button {
+    width: 420px;
+    height: 60px;
+    background-color: #1b7b7b;
+    border: 1px solid gold;
   }
 }

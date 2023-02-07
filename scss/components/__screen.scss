@@ -1,4 +1,4 @@
-.header {
+.screen {
   height: 1442px;
   width: 100%;
 
@@ -8,19 +8,26 @@
       90deg,
       rgba(6, 53, 53, 0.8) 100%,
       rgba(94, 94, 94, 0.5) 100%
-    ), url(../images/background.jpg);
+    ),
+    url(../images/background.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   margin-top: 0;
   display: flex;
   // background-position: center;
   // background-size: cover;
-  &__title {
-    color: #10002b;
-    font-size: 50px;
-    text-align: center;
-    font-family: "La Belle Aurore", cursive;
-    margin: auto;
-    text-shadow: 8px 1px 18px rgba(78, 47, 82, 0.6);
+  // &__title {
+  //   color: #10002b;
+  //   font-size: 50px;
+  //   text-align: center;
+  //   font-family: "La Belle Aurore", cursive;
+  //   margin: auto;
+  //   text-shadow: 8px 1px 18px rgba(78, 47, 82, 0.6);
+  // }
+  &__img {
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    margin-inline: 100px;
   }
 }
