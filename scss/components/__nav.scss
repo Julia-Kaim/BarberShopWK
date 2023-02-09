@@ -11,11 +11,13 @@
   }
   &__item {
     color: white;
+    transition: color 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: color;
   }
-  // &__item:hover {
-  //   color: #ffafcc;
-  //   text-shadow: 8px 1px 18px #99407e;
-  // }
+  &__item:hover {
+    color: gold;
+    text-shadow: 8px 1px 18px #99407e;
+  }
   &__item--logo {
     flex-shrink: 2;
   }
@@ -25,5 +27,9 @@
     height: 60px;
     background-color: #1b7b7b;
     border: 1px solid gold;
+    transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  &__button:hover {
+    box-shadow: 4px 19px 33px 7px rgba(93, 97, 77, 0.85);
   }
 }

@@ -14,6 +14,7 @@
   background-repeat: no-repeat;
   margin-top: 0;
   display: flex;
+  position: relative;
   // background-position: center;
   // background-size: cover;
   // &__title {
@@ -29,5 +30,32 @@
     left: 25%;
     top: 25%;
     margin-inline: 100px;
+  }
+  &__title {
+    font-family: "Rye", cursive;
+    color: gold;
+    font-size: 70px;
+    line-height: 48px;
+    position: absolute;
+    top: 50%;
+    left: 8%;
+  }
+  &__button {
+    background-color: white;
+    width: 273px;
+    height: 97px;
+    border: 1px solid gold;
+    font-size: 30px;
+    color: black;
+    font-family: "Montagu Slab", serif;
+    font-weight: 600;
+    position: absolute;
+    top: 53%;
+    right: 8%;
+    cursor: pointer;
+    transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  &__button:hover {
+    box-shadow: 4px 19px 33px 7px rgba(93, 97, 77, 0.85);
   }
 }
