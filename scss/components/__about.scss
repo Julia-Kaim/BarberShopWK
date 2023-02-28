@@ -2,11 +2,24 @@
   background-color: #063535;
   width: 100%;
   height: auto;
-  margin-top: 0;
+  // margin-top: 0;
+
   &__title {
     font-family: "Rye", cursive;
     color: gold;
     font-size: 70px;
     line-height: 48px;
+  }
+  &__text {
+    font-size: 33px;
+    color: white;
+    font-family: Montserrat;
+    text-align: center;
+  }
+  &__img {
+    // position: absolute;
+    left: 25%;
+    top: 25%;
+    margin-inline: 100px;
   }
 }
